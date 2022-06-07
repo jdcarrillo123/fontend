@@ -14,3 +14,14 @@ h1 {
       color: #fff;
       background-color: #025157;
   }
+  figure {
+      margin-top: 32;
+  }
+  figure.intro > img{
+      width: 70%;
+
+  }
+  img {
+      vertical-align: middle;
+      border-style: none;
+  }
