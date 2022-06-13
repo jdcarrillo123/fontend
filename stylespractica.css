@@ -1,0 +1,23 @@
+.modelo_caja{
+   
+    background-color:bisque;
+    width: 500px;
+    padding: 40px 35px 15px 10px;/*top, right, bottom, left  funciona en la direccion a las manesillas del reloj*/
+    border: solid 4px blueviolet; /*el border se define con tres propiedades: estilo, anchura y color */
+    border-bottom-color: #999393;
+    margin: 40px 200px ;/*el margen no contiene color de fondo de la caja siempre será transparente su sintaxis será igual al depadding*/
+
+}
+.cuadrado{
+    width: 200px;
+    height: 200px;
+    background-color: chocolate;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+a{
+    display: block;
+}
+/*.contenedor{
+    display: flex;
+}*/
