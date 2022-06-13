@@ -29,9 +29,12 @@ h1 {
       border-style: none;
   }
   .header {
-    margin-top: 40px 20px 0;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
     font-family: sans-serif;
     height: 45px;
+    font-size: 0;
     
   }
   .header > * {
@@ -49,8 +52,9 @@ h1 {
   }
   .navbar {
     width: 70%;
-    text-align: center;
+    text-align: left;
     color: #025157;
+    font-weight: 500;
    }
    .menu-item {
     display: inline;
@@ -59,9 +63,9 @@ h1 {
   }
   .actions {
     width: 15%;
-    text-align: right;
+    text-align: left;
     font-size: 14px;
-    
+    font-weight: 600;
   }
   .actions > * {
     margin-right: 10px;
