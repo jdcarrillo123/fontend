@@ -88,3 +88,10 @@ h1 {
     margin-top: 140px;
     text-align: center;
   }
+  .font_uno{
+    font-family: 'Merriweather', serif;
+  }
+  .font_dos{
+    font-family: 'Nunito', sans-serif;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Nunito:wght@200&display=swap');
