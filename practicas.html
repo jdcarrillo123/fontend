@@ -6,8 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practicas</title>
     <link rel="stylesheet" href="stylespractica.css">
+    <script>
+        let miVideo=document.getElementById("video1");
+        function playPause(){
+            if(miVideo.paused){
+                miVideo.play();
+            }else{
+                miVideo.pause();
+            }
+        }
+        function stop(){
+            miVideo.pause();
+            miVideo.currentTime=0;
+        }
+        function skip(value){
+            miVideo.currentTime += value;
+        }
+
+    </script>
 </head>
 <body>
+    <h2>FIXED Y STIKY</h2>
+    <div class="cuadradoFixed">ELEMENTO FIXED</div>
+    <h2>FLEXBOX</h2>
+    <div class="flex-container">
+        <div class="cuadradoFlex">1</div>
+        <div class="cuadradoFlex">2</div>
+        <div class="cuadradoFlex">3</div>
+        <div class="cuadradoFlex">4</div>
+        <div class="cuadradoFlex">5</div>
+        <div class="cuadradoFlex">6</div>
+        <div class="cuadradoFlex">7</div>
+        <div class="cuadradoFlex">8</div>
+        <div class="cuadradoFlex">9</div>
+        <div class="cuadradoFlex">10</div>
+        <div class="cuadradoFlex">11</div>
+        <div class="cuadradoFlex">12</div>
+    </div>   
     <h1>Prácticas de los prewok</h1>    
     <h2>Esta es una sección de praácticas para los preworks</h2>
     <h3><strong>Modelo de Cajas</strong> </h3>
@@ -22,6 +57,15 @@
     <p><strong>Elemento de tipo block</strong></p>
     <a href="">Elemento line 1</a>
     <a href="">Elemento line  ocupa solo su contenido</a>
-
+    <video id="video1" autoplay >
+        <source src="https://www.youtube.com/watch?v=GSIkghMhFF4" type="video/mp4">
+    </video>
+    <div>
+        <button onclick="playPause()">&#9658;/||</button>
+        <button onclick="stop()">&#9726;</button>
+        <button onclick="skip(-10)">&lt;&lt;</button>
+        <button onclick="skip(10)">&gt;&gt;</button>
+        
+    </div>
 </body>
 </html>

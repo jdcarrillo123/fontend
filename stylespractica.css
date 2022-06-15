@@ -21,3 +21,38 @@ a{
 /*.contenedor{
     display: flex;
 }*/
+.video1{
+    width: 320px;
+    height: 240px;
+}
+.cuadradoFlex{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    font-size: 1.4rem;
+    margin: 10px;
+    color: azure;
+    background-color: rgb(25, 73, 67);  
+}
+.flex-container{
+    display: flex;
+    /*flex-wrap: wrap;*/
+    flex-flow: row wrap;
+    /*justify-content: center;*/
+    justify-content:center;
+    background-color: grey;
+    padding: 10px;
+}
+.cuadradoFixed{
+    background-color: brown;
+    height: 40px;
+    line-height: 2.5em;
+    color: azure;
+    position: sticky;
+    top: 0px;
+    /*position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);*/
+}
