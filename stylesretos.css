@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Nunito:wght@200&display=swap');
 body{
     background-color: #fffbf7;
 }
@@ -31,14 +30,10 @@ h1 {
       margin: 1em;
   }
   .header {
-    /*margin-top: 40px 20px 0;
-    margin-left: 20px;
-    margin-right: 20px;*/
     margin: 40px 20px 0;
     font-family: sans-serif;
     height: 45px;
     font-size: 0;
-    
     
   }
   .header > * {
@@ -47,18 +42,6 @@ h1 {
     vertical-align: middle;
     height: 100%;
     line-height: 45px;
-    
-  }
-  .navbar {
-    width: 70%;
-    text-align: center;
-    color: #025157;
-    /*font-weight: 500;*/
-   }
-   .menu-item {
-    display: inline;
-    margin-right: 25px;
-    margin-left: 25px;
   }
   .logo {
     width: 15%;
@@ -66,12 +49,22 @@ h1 {
   .logo > img {
     width: 15%;
   }
-  
-   
+  .navbar {
+    width: 70%;
+    text-align: left;
+    color: #025157;
+    font-weight: 500;
+   }
+   .menu-item {
+    display: inline;
+    margin-right: 25px;
+    margin-left: 25px;
+  }
   .actions {
     width: 15%;
-    text-align: left;
+    text-align: right;
     font-size: 14px;
+    font-weight: 600;
   }
   .actions > * {
     margin-right: 10px;
@@ -101,4 +94,4 @@ h1 {
   .font_dos{
     font-family: 'Nunito', sans-serif;
   }
-  
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Nunito:wght@200&display=swap');
