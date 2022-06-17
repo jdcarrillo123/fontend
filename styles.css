@@ -139,3 +139,12 @@ h1 {
     align-items: center;
 
   }
+  .articulo-video{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .articulo-video > img{
+    width: 50px;
+    margin-top: 10px;
+  }
