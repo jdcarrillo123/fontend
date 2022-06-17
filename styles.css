@@ -102,4 +102,6 @@ h1 {
   .font_dos{
     font-family: 'Nunito', sans-serif;
   }
-  
+  .video1{
+    width: 480px;
+  }
