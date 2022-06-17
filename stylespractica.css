@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .modelo_caja{
    
     background-color:bisque;
@@ -55,4 +60,33 @@ a{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);*/
+}
+.container{
+    background-color: bisque;
+    outline: 1px solid #000;
+    min-height: 80vh;
+    width: 93%;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 10px;
+}
+.position {
+    background-color: darkslateblue;
+    color: azure;
+    width: 120px;
+    height: 120px;
+    display: grid;
+    place-items: center;
+    margin-bottom: 20px;
+}
+.relative {
+    position: relative;
+   
+}
+
+.absolute{
+    position: absolute;
+    background-color: tomato;
+    z-index: 1;
+   right: 20px;
 }
