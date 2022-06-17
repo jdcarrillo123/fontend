@@ -112,7 +112,9 @@ h1 {
     line-height: 48px;
     color: #025157;
   }
-  
+  .publish {
+    margin-left: 30px;
+  }
   .publish > p {
     font-size: 16px;
     color: #343434;
@@ -129,4 +131,11 @@ h1 {
   .publish > form p {
     color: #025157;
     margin-right: 18px;
+  }
+  .promo {
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+
   }
