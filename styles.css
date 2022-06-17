@@ -21,7 +21,7 @@ h1 {
       border: #025157;
   }
   figure {
-      margin-top: 32;
+      margin-top: 32px;
   }
   figure.intro > img{
       width: 70%;
@@ -30,7 +30,6 @@ h1 {
   img {
       vertical-align: middle;
       border-style: none;
-      margin: 1em;
   }
   .header {
     /*margin-top: 40px 20px 0;
@@ -154,4 +153,125 @@ h1 {
     left: 0;
     right: 0;
     background-color: #fffbf7;
+    z-index: 1030;
   }
+  /*miembros*/
+  .succes-stories {
+    display: flex;
+    background-color: #a1d683;
+    align-items: center;    
+    justify-content: space-around;
+    padding: 5% 15%;
+    
+  }
+  .succes-stories .overview{
+    flex: 2;
+    padding-right: 100px;
+  }
+  .succes-stories .overview h2 {
+    font-family: "Alegreya", serif;
+    font-size: 51px;
+    line-height: 61px;
+    color: #025157;
+  }
+  .succes-stories .overview p {
+    color: #343434;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+  .succes-stories .overview button {
+    height: 45px;
+    border-radius: 8px;
+    font-size: 14px;
+    padding: 12px 12px 6px 12px;
+    font-weight: 600;
+    margin-left: 0;
+  }
+  .succes-stories .overview img {
+    width: 500px;
+    max-width: 100%;
+  }
+  .succes-stories .stories-carousel {
+    flex: 1;
+   
+  }
+  .succes-stories .stories-carousel .card {
+    max-width: 370px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .succes-stories .stories-carousel .card .card-media {
+    position: relative;
+  }
+  .succes-stories .stories-carousel .card .card-media figure {
+    margin-top: 0;
+  }
+  .succes-stories .stories-carousel .card .card-media img {
+    width: 100%;
+    max-height: 16vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .succes-stories .stories-carousel .card .card-media .company {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 20px;
+    bottom: -20px;
+    background-color: #f9da73;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .success-stories .stories-carousel .card .card-media .company img {
+    max-width: 75%;
+  }
+  .card-body {
+      padding: 25px;
+  }
+ .card-footer {
+    padding: 25px;
+    margin-bottom: 20px;
+    background-color: unset;
+    border-top: unset;
+  }
+.succes-stories .stories-carousel .card .card-body h4 {
+  color: #025157;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  margin-bottom: 12px;
+}
+.succes-stories .stories-carousel .card .card-body h3 {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.succes-stories .stories-carousel .card .card-body .results img {
+  width: 26px;
+  margin-right: 20px;
+}
+.results p {
+  margin-top: 0;
+  color: #343434;
+  font-size: 16px;
+}
+.card-footer button{
+  display: block;
+  margin-left: 0;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 20px;
+  width: 100%;
+}
+
+  /*fin miembros*/
