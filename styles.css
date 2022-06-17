@@ -93,7 +93,7 @@ h1 {
     border-radius: 5px;
   } 
   .main {
-    margin-top: 140px;
+    margin-top: 285px;
     text-align: center;
   }
   .font_uno{
@@ -147,4 +147,11 @@ h1 {
   .articulo-video > img{
     width: 50px;
     margin-top: 10px;
+  }
+  .fixed-heder{ 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
   }
