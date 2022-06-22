@@ -172,7 +172,8 @@ h1 {
   background-color: #025157;
   padding: 5% 10%;
   display: grid;
-  grid-template: repeat(2, 330px) / repeat(2, 1fr);
+  height: 660px;
+  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
 }
 .features .feature-card {
   margin-bottom: 30px;
