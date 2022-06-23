@@ -350,3 +350,93 @@ h1 {
 }
 
   /*fin miembros*/
+
+/*Como funciona*/
+.comoFuncionaMatcha{
+ background-color: #fffbf7;
+ padding: 5% 10%;
+text-align: center;
+}
+.comoFuncionaMatcha .titulo {
+  font-size: 50px;
+  color: #025157;
+  font-family: "Alegreya", serif;
+  line-height: 1.5;
+}
+.comoFuncionaMatcha .description {
+  max-width: 60%;
+  color: #46484c;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0 auto;
+  margin-bottom: 1px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.comoFuncionaMatcha .description a{
+  font-size: 18px;
+    color: #67b54b;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+}
+.comoFuncionaMatcha button {
+  font-size: 16px;
+  font-weight: 600;
+  height: 45px;
+  border-radius: 8px;
+  margin-top: 6px;
+}
+.comoFuncionaMatcha .pasos {
+  display: grid;
+  margin: 70px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.comoFuncionaMatcha .pasos .card-pasos {
+  background-color: #fff;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: left;
+  border-radius: 5px;
+  border: 1px solid #dadada;
+}
+.comoFuncionaMatcha .pasos .card-pasos .card-pasos-image{
+  position: relative;
+    height: 350px;
+}
+.comoFuncionaMatcha .pasos .card-pasos .card-pasos-image .card-pasos-bg{
+  width: 100%;
+  height: 100%;
+}
+.comoFuncionaMatcha .pasos .card-pasos .card-pasos-image .card-pasos-icon{
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  width: 21px;
+}
+.comoFuncionaMatcha .pasos .card-pasos .card-pasos-body h1{
+  font-size: 30px;
+  color: #025157;
+  font-family: "Alegreya", serif;
+  line-height: 1.5;
+  text-align: center;
+}
+.comoFuncionaMatcha .pasos .card-pasos .card-pasos-body{
+  padding: 25px;
+}
+.comoFuncionaMatcha .pasos .card-pasos .card-pasos-body p{
+  color: #46484c;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+  height: 85px;
+  margin-bottom: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.comoFuncionaMatcha .pasos .card-pasos .card-pasos-body a{
+  font-size: 16px;
+    line-height: 1.4;
+    color: #67b54b;
+    font-weight: 600;
+    text-decoration: none;
+}
+/*fin como funciona*/
