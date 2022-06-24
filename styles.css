@@ -452,9 +452,10 @@ text-align: center;
    h1{
     font-size: 30px;
   }
-  /* .banner > img {
+  .banner > img {
     width: 100%;
   }
+  
   .publish form {
     flex-direction: column;
   }
@@ -463,9 +464,9 @@ text-align: center;
     margin-top: 10px;
   }
   .publish > form > div > input {
-    width: 60px;
+    width: 65%;
   }
-  .promo{
+  /*.promo{
     flex-direction: column;
     max-width: 90%;
   }
