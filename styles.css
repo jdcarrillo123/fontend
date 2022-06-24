@@ -57,6 +57,11 @@ h1 {
     color: #025157;
     font-weight: 500;
    }
+   .color-menu{
+    color: #025157;
+    font-weight: 500;
+    text-decoration: none;
+   }
    .menu-item {
     display: inline;
     margin-right: 25px;
@@ -443,9 +448,9 @@ text-align: center;
 /*fin como funciona*/
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
-  .navbar, .actions {
+  /* .navbar, .actions {
     display: none;
-  }
+  } */
   .main{
     margin-top: 100px;
   }
