@@ -466,7 +466,7 @@ text-align: center;
   .publish > form > div > input {
     width: 65%;
   }
-  /*.promo{
+  .promo{
     flex-direction: column;
     max-width: 90%;
   }
@@ -484,10 +484,11 @@ text-align: center;
   grid-template: repeat(4, 1fr) / 1fr;
   padding-left: 0;
   padding-right: 0;
+  height: 100%;
 }
-.feature-image {
+.feature-image { 
   display: none;
-} */
+}  
 
   
 }
