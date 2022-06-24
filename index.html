@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
   <title>Matcha</title>
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -12,11 +13,11 @@
   <!--Esto es lo que se verá en el navegador-->
   <section class="fixed-heder">
     <header class="header">
-      <!--Logo con link a la pagina principal-->
+      
       <a href="/" class="logo">
         <img src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png" alt="Logo" />
       </a>
-      <!--Menú de navegación-->
+      
       <nav class="navbar">
         <ul>
           <li class="menu-item">Plataform</li>
@@ -26,14 +27,51 @@
           <li class="menu-item">About</li>
         </ul>
       </nav>
-      <!--Contenedor de acciones de usuario-->
+     
       <div class="actions">
         <a href="#">Sign In</a>
         <button type="submit">Star free trial</button>
       </div>
     </header>
   </section>
-
+<!-- Nuestra barra de navegación comentada va aquí -->
+<!-- Nuestra barra de navegación comentada va aquí -->
+<!-- <nav class="navbar navbar-expand-lg" style="background-color: #fffbf7;">
+  <div class="container-fluid">
+    <a class="navbar-brand logo" href="#">
+      <img src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png" alt="Matcha"/>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mx-auto mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Platform</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Customers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Resources</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About us</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0 actions justify-content-end">
+        <div class="actions">
+          <a href="#">Sign In</a>
+          <button>Start Free Trial</button>
+        </div>
+        </form>
+    </div>
+  </div>
+</nav> -->
+<!-- Nuestro contenido va aquí-->
   <section class="main">
     <h1>Build your blog. Build your business.</h1>
     <p>Contruye tu propio blog..</p>
@@ -47,7 +85,9 @@
     </form>
     <p>Start publishing today with a <b>free 7-day trial.</b></p>
     <p><b>No credit card</b> required.</p>
-    <img src="https://ignos.blog/wp-content/uploads/2021/04/capterra.png" alt="imagen capterra" />
+    <figure class="banner">
+      <img src="https://ignos.blog/wp-content/uploads/2021/04/capterra.png" alt="imagen capterra" />
+    </figure>
     <figure class="intro">
       <img src="https://getmatcha.com/wp-content/uploads/2019/09/intro_group_image.png" alt="Intro Matcha"
         width="80%" />
@@ -211,6 +251,7 @@
         <!-- </div> -->
       <!-- </div> -->
     </article>
+
   </section>
 <section class="comoFuncionaMatcha">
   <h1 class="titulo">How does Matcha wok?</h1>
@@ -222,7 +263,7 @@
     <article class="card-pasos">
       <div class="card-pasos-image">
         <img class="card-pasos-bg" src="https://d9hhrg4mnvzow.cloudfront.net/info.getmatcha.com/ecommerce-content-marketing-toolkit/d777ee3c-toolkit-creative_07e05z000000000000000.png" alt="Publish">
-        <img class="card-pasos-icon" src="https://uxwing.com/wp-content/themes/uxwing/download/07-web-app-development/web-content.png" alt="icon-content">
+        
       </div>
       <div class="card-pasos-body">
         <h1>Publis</h1>
@@ -236,7 +277,7 @@
     <article class="card-pasos">
       <div class="card-pasos-image">
         <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/ill-promote.png" alt="Promote" class="card-pasos-bg">
-        <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_channels.png" alt="Channels icon" class="card-pasos-icon">
+        
       </div>
       <div class="card-pasos-body">
         <h1>Promote</h1>
@@ -250,7 +291,7 @@
     <article class="card-pasos">
       <div class="card-pasos-image">
         <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/ill-capture.png" alt="Capture" class="card-pasos-bg">
-        <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_funnel.png" alt="Funnel icon" class="card-pasos-icon">
+        
       </div>
       <div class="card-pasos-body">
         <h1>Capture</h1>
@@ -264,7 +305,7 @@
     <article class="card-pasos">
       <div class="card-pasos-image">
         <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/ill-measure.png" alt="Measure" class="card-pasos-bg">
-        <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_chart.png" alt="Chart icon" class="card-pasos-icon">
+        
       </div>
       <div class="card-pasos-body">
         <h1>Measure</h1>

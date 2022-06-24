@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 12px;
 }
 .modelo_caja{
    
@@ -89,4 +90,25 @@ a{
     background-color: tomato;
     z-index: 1;
    right: 20px;
+}
+body{
+    font-size: 30px;
+}
+.container2{
+    font-size: 12px;
+}
+p.text{
+    font-size: 1.5rem;
+
+}
+form{
+    border: solid 1px #ccc;
+    width: 300px;
+    padding: 2em;
+}
+form label{
+    display: block;
+}
+form input {
+    width: 100px;
 }
