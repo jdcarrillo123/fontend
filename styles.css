@@ -278,6 +278,8 @@ h1 {
     width: 500px;
     max-width: 100%;
   }
+
+
   .succes-stories .stories-carousel {
     flex: 1;
    
@@ -285,6 +287,8 @@ h1 {
   .succes-stories .stories-carousel .card {
     max-width: 370px;
     width: 100%;
+    min-height: 600px;
+    margin: 0 auto;
     background-color: #fff;
     border-radius: 10px;
     position: relative;
@@ -320,7 +324,10 @@ h1 {
     max-width: 75%;
   }
   .card-body {
-      padding: 25px;
+    max-width: 370px;
+    width: 100%;
+    position: relative;
+    padding: 40px 1rem 1rem;
   }
  .card-footer {
     padding: 25px;
@@ -334,12 +341,18 @@ h1 {
   font-weight: 600;
   line-height: 20px;
   margin-bottom: 12px;
+  font-family: "Slabo 27px", serif;
 }
 .succes-stories .stories-carousel .card .card-body h3 {
   font-size: 25px;
   font-weight: 400;
   line-height: 30px;
   margin-bottom: 20px;
+}
+.succes-stories .stories-carousel .card .card-body .results{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 .succes-stories .stories-carousel .card .card-body .results img {
   width: 26px;
@@ -349,6 +362,18 @@ h1 {
   margin-top: 0;
   color: #343434;
   font-size: 16px;
+}
+.card-footer{
+  display: block;
+  margin-left: 0;
+  border-radius: 5px;
+  font-size: 13;
+  font-weight: 600;
+  padding: 12px 20px;
+  width: 100%;
+  background-color: #025157;
+  color: #fff;
+  border: none;
 }
 .card-footer button{
   display: block;
@@ -449,9 +474,10 @@ text-align: center;
 /*fin como funciona*/
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
-  /* .navbar, .actions {
-    display: none;
-  } */
+  .actions,
+  .navbar {
+    text-align: center;
+  }
   .main{
     margin-top: 100px;
   }
@@ -529,7 +555,14 @@ text-align: center;
 
 /** dispositivos medianos (tablets) */
 @media (min-width: 768px) and (max-width: 991px) {
-  
+  .actions,
+  .navbar {
+    text-align: center;
+  }
+  .success-stories {
+    flex-direction: column;
+    padding: 5% 15px;
+  }
 }
 
 /** dispositivos grandes (desktops) */
