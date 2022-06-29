@@ -385,6 +385,41 @@ h1 {
   width: 100%;
 }
 
+.success-stories {
+  background-color: #A1D683;
+  padding: 5% 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.success-stories .overview {
+  flex: 2;
+  padding-right: 100px;
+}
+.success-stories .overview h2 {
+  font-family: "Alegreya", serif;
+  font-size: 51px;
+  line-height: 61px;
+  color: #025157;
+}
+.success-stories .overview p {
+  color: #343434;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+.success-stories .overview button {
+  font-size: 14px;
+  padding: 12px 12px 6px 12px;
+  border-radius: 8px;
+  height: 45px;
+  font-weight: 600;
+  margin-left: 0;
+}
+.success-stories .overview img {
+  width: 500px;
+  max-width: 100%;
+}
   /*fin miembros*/
 
 /*Como funciona*/
@@ -550,7 +585,76 @@ text-align: center;
 
 /** dispositivos pequeños en vista landscape (horizontal) */
 @media (min-width: 576px) and (max-width: 767px) {
+  .actions,
+  .navbar {
+    text-align: center;
+  }
+  .main{
+    margin-top: 100px;
+  }
+   h1{
+    font-size: 30px;
+  }
+  .banner > img {
+    width: 100%;
+  }
   
+  .publish form {
+    flex-direction: column;
+  }
+  .publish > form > div {
+    height: 50px;
+    margin-top: 10px;
+  }
+  .publish > form > div > input {
+    width: 65%;
+  }
+  .promo{
+    flex-direction: column;
+    max-width: 90%;
+  }
+  .video1{
+    width: 100%;
+  }
+  .publish {
+    margin-top: 10px;
+  }
+  .publish > h3 {
+    font-size: 25px;
+    line-height: 1.2;
+  }
+.features{
+  grid-template: repeat(4, 1fr) / 1fr;
+  padding-left: 0;
+  padding-right: 0;
+  height: 100%;
+}
+.feature-image { 
+  display: none;
+}  
+.succes-stories {
+  flex-direction: column;
+  
+  max-width: 100%;
+}
+.succes-stories .overview{
+  padding: 0;
+  width: 100%;
+}
+.succes-stories .stories-carousel{
+  width: 100%;
+ 
+}
+.comoFuncionaMatcha{
+  padding: 0%;
+}
+.comoFuncionaMatcha .pasos{
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  margin: 0%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 }
 
 /** dispositivos medianos (tablets) */
@@ -559,10 +663,73 @@ text-align: center;
   .navbar {
     text-align: center;
   }
-  .success-stories {
-    flex-direction: column;
-    padding: 5% 15px;
+  .main{
+    margin-top: 100px;
   }
+   h1{
+    font-size: 30px;
+  }
+  .banner > img {
+    width: 100%;
+  }
+  
+  .publish form {
+    flex-direction: column;
+  }
+  .publish > form > div {
+    height: 50px;
+    margin-top: 10px;
+  }
+  .publish > form > div > input {
+    width: 65%;
+  }
+  .promo{
+    flex-direction: column;
+    max-width: 90%;
+  }
+  .video1{
+    width: 100%;
+  }
+  .publish {
+    margin-top: 10px;
+  }
+  .publish > h3 {
+    font-size: 25px;
+    line-height: 1.2;
+  }
+.features{
+  grid-template: repeat(4, 1fr) / 1fr;
+  padding-left: 0;
+  padding-right: 0;
+  height: 100%;
+}
+.feature-image { 
+  display: none;
+}  
+.succes-stories {
+  flex-direction: column;
+  
+  max-width: 100%;
+}
+.succes-stories .overview{
+  padding: 0;
+  width: 100%;
+}
+.succes-stories .stories-carousel{
+  width: 100%;
+ 
+}
+.comoFuncionaMatcha{
+  padding: 0%;
+}
+.comoFuncionaMatcha .pasos{
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  margin: 0%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 }
 
 /** dispositivos grandes (desktops) */
