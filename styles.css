@@ -655,6 +655,9 @@ text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
 }
+.comoFuncionaMatcha .pasos .card-pasos .card-pasos-image .card-pasos-bg {
+  width: 50%;
+}
 }
 
 /** dispositivos medianos (tablets) */
@@ -728,6 +731,9 @@ text-align: center;
   margin: 0%;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+.comoFuncionaMatcha .pasos .card-pasos .card-pasos-image .card-pasos-bg {
+  width: 50%;
 }
 
 }
