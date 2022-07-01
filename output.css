@@ -18,6 +18,7 @@
 }
 
 .blog .card-text {
+  font-family: "Open Sans", sans-serif;
   color: #4a4a4a;
   font-size: 18px;
   line-height: 1.5em;
@@ -40,10 +41,12 @@
 .blog .process-list .process > div > h3 {
   color: #025157;
   margin-bottom: 0;
+  font-family: "Open Sans", sans-serif;
   font-size: 30px;
   font-weight: 500;
 }
 .blog .process-list .process > div > p {
+  font-family: "Open Sans", sans-serif;
   color: #135359;
   margin: 0;
 }
@@ -63,8 +66,12 @@
   width: 180px;
   margin-bottom: 15px;
 }
+.blog .card-title {
+  font-family: "Open Sans", sans-serif;
+}
 .blog .metadata .category {
   color: #67b54b;
+  font-family: "Open Sans", sans-serif;
 }
 .blog .card-text .read-more {
   text-decoration: underline;

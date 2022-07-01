@@ -21,10 +21,12 @@
         & > h3 {
           color: $dark-green-title;
           margin-bottom: 0;
+          font-family: $fuente-card-text;
           font-size: 30px;
           font-weight: 500;
         }
         & > p {
+          font-family: $fuente-card-text;
           color: $dark-green-text;
           margin: 0;
         }
@@ -50,12 +52,14 @@
   }
   .card-title{
     @extend %base-title-card;
+    font-family: $fuente-card-text; 
    
   }
   .metadata{
     @extend %base-card-metadata;
     .category{
         color: #67b54b;
+        font-family: $fuente-card-text;
     }
   }
   .card-text{
