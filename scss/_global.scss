@@ -1,0 +1,36 @@
+/*colores*/
+$dark-green-title:#025157;
+$dark-green-text:#135359;
+$white:#ffffff;
+$color-card-title:#4a4a4a;
+$color-card-metadata:#979797;
+
+/*fuentes*/
+$font-title:"Alegreya",serif;
+$tamanio-fuente-card-title:24px;
+$tamanio-fuente-metadata:14px;
+$peso-fuente-metadata:500;
+$tamanio-card-text:18px;
+$espaciado-card-text:1.5em;
+$tamanio-minimo-alto-card-text:6em;
+/*placeholders*/
+%base-title{
+    font-family:$font-title;
+    color: $dark-green-text;
+}
+%base-title-card{
+    font-size: $tamanio-fuente-card-title;
+    color: $color-card-title;
+    
+}
+%base-card-metadata{
+    font-weight: $peso-fuente-metadata;
+    font-size: $tamanio-fuente-metadata;
+    color: #979797;
+}
+%base-card-text{
+    color: $color-card-title;
+    font-size: $tamanio-card-text;
+    line-height: $espaciado-card-text;
+    min-height: $tamanio-minimo-alto-card-text;
+}
