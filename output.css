@@ -88,4 +88,80 @@
   color: #4a4a4a;
 }
 
+.try-it {
+  padding: 5% 5% 2%;
+  background-color: #96d178;
+  margin-top: -30px;
+}
+.try-it h2 {
+  color: #025157;
+  font-size: 60px;
+  font-family: "Alegreya", serif;
+}
+.try-it input {
+  border: 1px solid #979797;
+  padding: 6px 20px;
+  width: 60%;
+  max-width: 250px;
+  border-radius: 6px;
+  height: 100%;
+}
+.try-it button {
+  height: 100%;
+  border: none;
+  border-radius: 8px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 6px 20px;
+  margin-left: -10px;
+}
+.try-it p {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.cta {
+  padding: 5% 10% 0;
+  margin: 0;
+  max-width: unset;
+}
+.cta .box {
+  background-color: #025157;
+  color: #ffffff;
+  padding: 5%;
+  border-radius: 10px;
+}
+.cta .box h2 {
+  font-family: "Alegreya", serif;
+  font-size: 34px;
+  max-width: 340px;
+  line-height: 1.3;
+}
+.cta .box p {
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  margin-top: 15px;
+  line-height: 25px;
+  font-weight: 500;
+  font-size: 17px;
+}
+.cta .box p a {
+  color: #96d178;
+}
+.cta .box form button {
+  background-color: #67b54b;
+}
+.cta .box form input, .cta .box form button {
+  vertical-align: middle;
+}
+.cta .box form + p {
+  color: #b3cbcd;
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.6;
+  max-width: 340px;
+}
+
 /*# sourceMappingURL=output.css.map */
