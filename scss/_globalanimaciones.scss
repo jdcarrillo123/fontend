@@ -1,0 +1,12 @@
+$fondo:#aaa;
+$antesmitad:red;
+$mitadanimacion:green;
+$despuesmitad:pink;
+$finanimacion:blue;
+
+/*placeholder*/
+%datos-cuadrado{
+    width: 200px;
+    height: 200px;
+    background-color: $fondo;
+}

@@ -1,0 +1,46 @@
+/*placeholder*/
+#cuadrado {
+  width: 200px;
+  height: 200px;
+  background-color: #aaa;
+}
+
+#cuadrado {
+  animation-name: mianimacion;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  position: relative;
+  animation-direction: reverse;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes mianimacion {
+  0% {
+    background-color: #aaa;
+    left: 0;
+    top: 0px;
+  }
+  25% {
+    background-color: red;
+    left: 300px;
+    top: 0px;
+  }
+  50% {
+    background-color: green;
+    left: 300px;
+    top: 300px;
+  }
+  75% {
+    background-color: pink;
+    left: 0px;
+    top: 300px;
+  }
+  100% {
+    background-color: blue;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+/*# sourceMappingURL=outanimaciones.css.map */

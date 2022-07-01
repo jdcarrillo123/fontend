@@ -597,6 +597,9 @@ text-align: center;
 
   
 }
+.texto-boton:hover{
+  background-color: #67b54b;
+}
 
 /** dispositivos pequeños en vista landscape (horizontal) */
 @media (min-width: 576px) and (max-width: 767px) {
