@@ -102,11 +102,11 @@ main {
 }
 .flecha .flecha-contenedor {
   position: relative;
-  animation-name: MovimientoFlecha;
+  animation-name: MovimientoFlecha, IzquierdaDerecha;
   animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-direction: normal;
+  animation-direction: alternate;
   height: 130px;
   width: 130px;
 }
@@ -129,6 +129,14 @@ main {
   }
   100% {
     top: 0;
+  }
+}
+@keyframes IzquierdaDerecha {
+  from {
+    left: 200px;
+  }
+  to {
+    left: -200px;
   }
 }
 
