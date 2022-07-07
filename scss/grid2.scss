@@ -1,0 +1,22 @@
+@use 'grids2' as *;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  header h1 {
+    background-color: $colo-purpura;
+    height: 100px;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+  }
+  section{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:10px;
+    & article{
+        background-color: $color-aqua;
+    }
+  }

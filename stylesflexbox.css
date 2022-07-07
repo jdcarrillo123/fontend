@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  margin-top: 0;
+}
+header h1 {
+  background-color: purple;
+  height: 100px;
+  color: #fff;
+  text-align: center;
+  line-height: 100px;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+section article {
+  background-color: aqua;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+}
+
+/*# sourceMappingURL=stylesflexbox.css.map */
