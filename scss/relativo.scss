@@ -1,0 +1,23 @@
+@use "relativoAbs" as *;
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    @extend %base-container;
+}
+.cuadradouno{
+    @extend %base-cuadradouno;
+    
+}
+.cuadradodos{
+    @extend %base-cuadradodos;
+    position: relative;
+    left: 200px;
+    top: -100px
+}
+.cuadradotres{
+    @extend %base-cuadradotres;
+    position:absolute;
+    top: 434px;
+}

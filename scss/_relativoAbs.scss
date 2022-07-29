@@ -1,0 +1,51 @@
+$color-container:bisque;
+$ancho-container:93%;
+$altoMinimo-container:80vh;
+$color-cuadradouno:purple;
+$color-cuadradodos:green;
+$color-cuadradotres:blue;
+$ancho-cuadrado:100px;
+$alto-cuadrado:100px;
+$margen-bajo:10px;
+
+/*placeholder*/
+%base-container{
+    background-color: $color-container;
+    outline: 1px solid #000;
+    min-height: $altoMinimo-container;
+    width: $ancho-container;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 10px;
+}
+%base-cuadradouno{
+    background-color: $color-cuadradouno;
+    width: $ancho-cuadrado;
+    height: $alto-cuadrado;
+    margin-bottom: $margen-bajo;
+    color: azure;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+%base-cuadradodos{
+    background-color: $color-cuadradodos;
+    width: $ancho-cuadrado;
+    height: $alto-cuadrado;
+    margin-bottom: $margen-bajo;
+   color: azure;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+%base-cuadradotres{
+    background-color: $color-cuadradotres;
+    width: $ancho-cuadrado;
+    height: $alto-cuadrado;
+    margin-bottom: $margen-bajo;
+    color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

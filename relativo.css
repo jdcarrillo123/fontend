@@ -1,0 +1,61 @@
+/*placeholder*/
+.container {
+  background-color: bisque;
+  outline: 1px solid #000;
+  min-height: 80vh;
+  width: 93%;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 10px;
+}
+
+.cuadradouno {
+  background-color: purple;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+  color: azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cuadradodos {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+  color: azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cuadradotres {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+  color: azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.cuadradodos {
+  position: relative;
+  left: 200px;
+  top: -100px;
+}
+
+.cuadradotres {
+  position: absolute;
+  top: 434px;
+}
+
+/*# sourceMappingURL=relativo.css.map */
